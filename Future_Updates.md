@@ -1,3 +1,2 @@
-- Add more formats to the script
 - Add a progress bar
 - Speed up the process – currently, files are processed one by one.
