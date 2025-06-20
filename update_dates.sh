@@ -2,7 +2,7 @@
 
 echo "Updating EXIF dates for PHOTOS (jpg, jpeg, heic, png)..."
 exiftool -r '-alldates<${filename;s/.*?(\d{8})_(\d{6}).*/$1 $2/}' \
-  -ext jpg -ext JPG -ext jpeg -ext HEIC -ext heic -ext PNG -ext png -overwrite_original .
+  -ext JPG -ext jpg -ext jpeg -ext HEIC -ext heic -ext PNG -ext png -overwrite_original .
 
 echo "Updating QuickTime dates for VIDEOS (mp4, mov)..."
 exiftool -r \
@@ -14,7 +14,7 @@ echo "Updating FILESYSTEM dates from DateTimeOriginal for PHOTOS..."
 exiftool -r \
   '-FileCreateDate<DateTimeOriginal' \
   '-FileModifyDate<DateTimeOriginal' \
-  -ext jpg -ext JPG -ext jpeg -ext HEIC -ext heic -ext PNG -ext png -overwrite_original .
+  -ext JPG -ext jpg -ext jpeg -ext HEIC -ext heic -ext PNG -ext png -overwrite_original .
 
 echo "Updating FILESYSTEM dates from CreateDate for VIDEOS..."
 exiftool -r \
