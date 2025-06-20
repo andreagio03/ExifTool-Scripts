@@ -1,4 +1,4 @@
-# ExifTool-Scritps
+# ExifTool-Scripts
 ## Foreword
 All my files photos and videos are renamed in one of the following ways:
 - **IMG_yyyyMMdd_hhmmss**
@@ -24,7 +24,7 @@ For example, "IMG_20250620_184730", "IMG_20250620_184730_Vacation", or "IMG_2025
 7. Make the script exectuable:
     `chmod +x update_dates.sh`
 
-## How to run the scritp
+## How to run the script
 1. Add the `.sh` file to the folder containing the files to be modified.
 2. In Terminal, navigate to the target folder:  
     `cd [drag folder to terminal to display path]`  
