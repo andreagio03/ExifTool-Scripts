@@ -3,7 +3,7 @@ First, in Terminal, navigate to the directory of the file you want to edit, usin
 
 ## Checking a file's metadata
 ```Bash
-exiftool -time:all -a -G1 nome_file.estensione
+exiftool -time:all -a -G1 file_name.extension
 ```
 
 ## Copy video date to file creation date
