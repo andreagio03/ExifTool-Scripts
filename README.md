@@ -33,6 +33,6 @@ For example, "IMG_20250620_184730", "IMG_20250620_184730_Vacation", or "IMG_2025
 Alternatively, if you want to display all warning messages:  
     `./update_dates.sh`
    
-**N.B.** Not all file types are supported, so it's good practice to check the error messages in Terminal as files are being modified and, if necessary, use third-party applications (e.g. "A Better Finder Attributes") to modify them individually.
+**N.B.** This script doesn't support all types of files, so it's good practice to check the error messages in Terminal as files are being modified and, if necessary, use third-party applications (e.g. "A Better Finder Attributes") to modify them individually.
 
 ## 
