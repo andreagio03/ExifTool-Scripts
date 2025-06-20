@@ -1,4 +1,4 @@
-# ExifTool-Scripts
+# ExifTool Scripts
 ## Foreword
 All my files photos and videos are renamed in one of the following ways:
 - **IMG_yyyyMMdd_hhmmss**
