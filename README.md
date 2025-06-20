@@ -49,4 +49,6 @@ chmod +x update_dates.sh
    
 **N.B.** This script doesn't support all types of files, so it's good practice to check the error messages in Terminal as files are being modified and, if necessary, use third-party applications (e.g. "A Better Finder Attributes") to modify them individually.
 
-## 
+## Explanation of the script
+`-overwrite_original`: It overwrites the original files (**!!ATTENTION!!**).  
+`-r`: It applies changes to files in subdirectories as well.
