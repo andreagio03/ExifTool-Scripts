@@ -15,6 +15,10 @@ exiftool '-FileCreateDate<QuickTime:CreateDate' '-FileModifyDate<QuickTime:Creat
 ```Bash
 exiftool '-FileCreateDate<QuickTime:CreateDate' '-FileModifyDate<QuickTime:CreateDate' -overwrite_original *.mov
 ```
+- .MP4:  
+```Bash
+exiftool '-FileCreateDate<QuickTime:CreateDate' '-FileModifyDate<QuickTime:CreateDate' -overwrite_original *.MP4
+```
 - .mp4:  
 ```Bash
 exiftool '-FileCreateDate<QuickTime:CreateDate' '-FileModifyDate<QuickTime:CreateDate' -overwrite_original *.mp4
