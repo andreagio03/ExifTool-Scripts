@@ -1,4 +1,7 @@
 # ExifTool Scripts
+## Important
+**Walways have a backup of the files you're going to modify!!**
+
 ## Foreword
 All my photos and videos are renamed in one of the following ways:
 - **IMG_yyyyMMdd_hhmmss**
@@ -38,11 +41,7 @@ chmod +x update_dates.sh
 1. Add the `.sh` file to the folder containing the files to be modified.
 2. In Terminal, navigate to the target folder:  
     `cd [drag folder to terminal to display path]`  
-4. Run the script:  
-    ```bash
-    ./update_dates.sh | grep -v "Warning"
-    ```
-    Alternatively, if you want to display all warning messages:  
+4. Run the script:    
     ```bash
     ./update_dates.sh
     ```
@@ -51,5 +50,6 @@ chmod +x update_dates.sh
 
 ## Explanation of the script
 `-overwrite_original`: It overwrites the original files (**!!ATTENTION!!**).  
+`-m`: It ignores minor warnings.
 `-r`: It applies changes to files in subdirectories as well.  
 `-progress:-'ExifTool %p%% %20b'`: It displays a dynamic progress bar and percentage in the Terminal window title.
