@@ -10,7 +10,7 @@ It works for photos and videos that are renamed in one of the following ways:
 - **IMG_yyyyMMdd_hhmmss_Etc Etc**
 - **IMG_yyyyMMdd_hhmmss Etc**
 
-For example, "IMG_20250620_184730", "IMG_20250620_184730_Vacation", or "IMG_20250620_184730_Vacation at the Sea".
+For example, "IMG_20250620_184730", "IMG_20250620_184730_Vacation", "IMG_20250620_184730_Vacation at the Sea", or "IMG_20250620_184730 Vacation".
 
 ## Preparation
 1. Download and install Homebrew (https://brew.sh)
