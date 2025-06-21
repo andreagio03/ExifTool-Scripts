@@ -3,10 +3,12 @@
 ALWAYS KEEP A BACKUP OF THE FILES YOU INTEND TO MODIFY.
 
 ## Foreword
-All my photos and videos are renamed in one of the following ways:
+The .sh script gets the date from the file name and inserts it into the file.  
+It works for photos and videos that are renamed in one of the following ways:
 - **IMG_yyyyMMdd_hhmmss**
 - **IMG_yyyyMMdd_hhmmss_Etc**
 - **IMG_yyyyMMdd_hhmmss_Etc Etc**
+- **IMG_yyyyMMdd_hhmmss Etc**
 
 For example, "IMG_20250620_184730", "IMG_20250620_184730_Vacation", or "IMG_20250620_184730_Vacation at the Sea".
 
