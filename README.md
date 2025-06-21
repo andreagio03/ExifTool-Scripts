@@ -40,7 +40,7 @@ chmod +x update_dates.sh
     `cd [drag folder to terminal to display path]`  
 4. Run the script:  
     ```bash
-    ./update_dates.sh 2>&1 | grep -v "Warning"
+    ./update_dates.sh | grep -v "Warning"
     ```
     Alternatively, if you want to display all warning messages:  
     ```bash
