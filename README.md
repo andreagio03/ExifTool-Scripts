@@ -51,4 +51,5 @@ chmod +x update_dates.sh
 
 ## Explanation of the script
 `-overwrite_original`: It overwrites the original files (**!!ATTENTION!!**).  
-`-r`: It applies changes to files in subdirectories as well.
+`-r`: It applies changes to files in subdirectories as well.  
+`-progress`: Useful to monitor progress as files are being processed.
