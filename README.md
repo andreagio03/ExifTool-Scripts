@@ -1,6 +1,6 @@
 # ExifTool Scripts
-## Important
-**Walways have a backup of the files you're going to modify!!**
+## IMPORTANT!
+ALWAYS KEEP A BACKUP OF THE FILES YOU'RE GOING TO MODIFY.
 
 ## Foreword
 All my photos and videos are renamed in one of the following ways:
@@ -49,7 +49,7 @@ chmod +x update_dates.sh
 **N.B.** This script doesn't support all types of files, so it's good practice to check the error messages in Terminal as files are being modified and, if necessary, use third-party applications (e.g. "A Better Finder Attributes") to modify them individually.
 
 ## Explanation of the script
-`-overwrite_original`: It overwrites the original files (**!!ATTENTION!!**).  
+`-overwrite_original`: It overwrites the original files (**ATTENTION!**).  
 `-m`: It ignores minor warnings.
 `-r`: It applies changes to files in subdirectories as well.  
 `-progress:-'ExifTool %p%% %20b'`: It displays a dynamic progress bar and percentage in the Terminal window title.
