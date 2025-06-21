@@ -1,6 +1,6 @@
 # ExifTool Scripts
 ## IMPORTANT!
-ALWAYS KEEP A BACKUP OF THE FILES YOU'RE GOING TO MODIFY.
+ALWAYS KEEP A BACKUP OF THE FILES YOU INTEND TO MODIFY.
 
 ## Foreword
 All my photos and videos are renamed in one of the following ways:
