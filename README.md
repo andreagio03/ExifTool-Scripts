@@ -50,6 +50,6 @@ chmod +x update_dates.sh
 
 ## Explanation of the script
 `-overwrite_original`: It overwrites the original files (**ATTENTION!**).  
-`-m`: It ignores minor warnings.
+`-m`: It ignores minor warnings.  
 `-r`: It applies changes to files in subdirectories as well.  
 `-progress:-'ExifTool %p%% %20b'`: It displays a dynamic progress bar and percentage in the Terminal window title.
