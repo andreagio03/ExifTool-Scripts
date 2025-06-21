@@ -1,6 +1,6 @@
 # ExifTool Scripts
 ## IMPORTANT!
-ALWAYS KEEP A BACKUP OF THE FILES YOU INTEND TO MODIFY.
+***ALWAYS KEEP A BACKUP OF THE FILES YOU INTEND TO MODIFY.***
 
 ## Foreword
 The .sh script gets the date from the file name and inserts it into the file.  
